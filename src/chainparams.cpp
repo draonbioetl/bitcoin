@@ -221,11 +221,7 @@ public:
         m_is_test_chain = true;
         m_is_mockable_chain = false;
 
-        checkpointData = {
-            {
-                {546, uint256S("000000002a936ca763904c3c35fce2f3556c559c0214345d31b1bcebf76acb70")},
-            }
-        };
+        checkpointData = {};
 
         m_assumeutxo_data = MapAssumeutxo{
             // TODO to be specified in a future patch.
@@ -410,11 +406,7 @@ public:
         m_is_test_chain = true;
         m_is_mockable_chain = true;
 
-        checkpointData = {
-            {
-                {0, uint256S("0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206")},
-            }
-        };
+        checkpointData = {};
 
         m_assumeutxo_data = MapAssumeutxo{
             {
